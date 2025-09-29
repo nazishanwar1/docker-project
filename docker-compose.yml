@@ -5,6 +5,6 @@ services:
     build: .
     image: nazishanwar/docker-project:latest
     ports:
-      - 82:80
+      - 81:80
     deploy:
       replicas: 3

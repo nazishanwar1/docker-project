@@ -1,7 +1,10 @@
-version: '3.9'
+---
+version: "3.9"
 services:
   service1:
     build: .
-    image: Docker Project
+    image: nazishanwar/docker-project:latest
     ports:
-      -  "83:80"
+      - 81:80
+    deploy:
+      replicas: 3

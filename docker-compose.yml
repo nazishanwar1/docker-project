@@ -2,6 +2,6 @@ version: '3.9'
 services:
   service1:
     build: .
-    image: Docker-Project
+    image: Docker Project
     ports:
       -  "83:80"
